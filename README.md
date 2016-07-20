@@ -49,6 +49,11 @@ done explicitly, thus preventing inadvertant breakage.
 3. Add an entry for this project: `"cn-core-js": "https://github.com/ChowNow/cn-core-js.git#<your_tag>"`.
 4. Run `bower install` to pull the tag.
 
+Additionally, if you are using this in an Ember project, add
+`app.import('bower_components/cn-core-js/custom-core-js.js');` to your `ember-cli-build.js` file to include 
+it in your generated vendor.js. If using it in non-Ember projects, it will have to be included through other
+methods.
+
 *If you have already integrated this into your project...*
 
 1. Go to your project repo's directory.
