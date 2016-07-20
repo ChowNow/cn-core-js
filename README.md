@@ -20,7 +20,7 @@ You will need the following things properly installed on your computer.
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 
-## Generating a New custom-core-js.js File
+## Generating a New `custom-core-js.js` File
 
 1. Globally install Browserify by running: `npm install -g browserify`
 2. Clone this repo.
